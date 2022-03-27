@@ -531,7 +531,7 @@
 
 
 // var userName = prompt("Enter your name");
-// var greeting = "Welcasadome to JS Land";
+// var greeting = "Welcome to JS Land";
 // alert(greeting +" "+ userName);
 
 
@@ -1024,7 +1024,27 @@
 
 
 // 7. Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm. Implement the
-// following case using if, else & else if statements
+// following case using if, else & else if statements.
+
+
+// var time = +prompt("Enter your current time","Formate like: 1900");
+
+// if(time >= 0000 && time < 1200){
+//         alert("Good Morning!");
+// }
+// else if(time >= 1200 && time < 1700){
+//         alert("Good Afternoon!");
+// }
+// else if(time >= 1200 && time < 2100){
+//         alert("Good Evening!");
+// }
+// else if(time >= 2100 && time <= 2359){
+//         alert("Good Night!");
+// }
+// else{
+//         alert("Enter valid input")
+// }
+
 
 
 
