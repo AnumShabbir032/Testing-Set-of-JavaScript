@@ -88,9 +88,9 @@
 // var studentName = "Babar Shabbir";
 // var age = 20;
 // var course = "Certificated Mobile Application Development";
-//alert(studentName);
-//alert(age + " " + "year old");
-//alert(course);
+// alert(studentName);
+// alert(age + " " + "year old");
+// alert(course);
 
 // ●○●○●○●○●●○●○●○●○● Question no :05 ●○●○●○●○●●○●○●○●○●
 
@@ -102,6 +102,9 @@
 // ●○●○●○●○●●○●○●○●○● Question no :06 ●○●○●○●○●●○●○●○●○●
 
 //6. Declare a variable called email and assign to it a string that represents your Email Address(e.g. example@example.com).Show the blow mentioned message in an alert box.(Hint: use string concatenation)
+
+
+
 // var email = "AnumShabbir032@gmail.com";
 // alert("My email address is" + " " + email);
 
@@ -215,7 +218,7 @@
 // // 4= 
 // var user-Name = "Anun Shabbir";
 // // 5= 
-// var number.. = 1254782;
+// var number.age = 1254782;
 
 
 
@@ -245,18 +248,26 @@
 //1. 2. Repeat task1 for subtraction, multiplication, division & modulus.
 
 //SUBTRACTION 
+// var num1 = 3;
+// var num2 = 5;
 // var sub = num1 - num2;
 // document.write("<br> Subtraction of " + num1 + " " + "and" + " " + num2 + " " + "is" + " " + sub);
 
 //MULTIPLICATION
+// var num1 = 3;
+// var num2 = 5;
 // var mult = num1 * num2;
 // document.write("<br> Multiplication of " + num1 + " " + "and" + " " + num2 + " " + "is" + " " + mult);
 
 //DIVISION
+// var num1 = 3;
+// var num2 = 5;
 // var divi = num1 / num2;
 // document.write("<br> Division of " + num1 + " " + "and" + " " + num2 + " " + "is" + " " + divi);
 
 //MODULUS
+// var num1 = 3;
+// var num2 = 5;
 // var modu = num1 % num2;
 // document.write("<br> Modulus  of " + num1 + " " + "and" + " " + num2 + " " + "is" + " " + modu);
 
@@ -317,7 +328,7 @@
 // ●○●○●○●○●●○●○●○●○● Question no :05 ●○●○●○●○●●○●○●○●○●
 
 //5. Write a script to display multiplication table of any number in your browser.
-// var num = 5;
+var num = 5;
 
 
 
@@ -361,13 +372,13 @@
 
 //Part: a
 // var item1 = 650;
-//Part: b
+// // Part: b
 // var item2 = 100;
-//Part: c
+// // Part: c
 // var quantity1 = 3;
-//Part d
+// // Part d
 // var quantity2 = 7;
-//Part e 
+// // Part e 
 // var shopChr = 100;
 
 // var priceItem1 = item1 * quantity1;
@@ -416,12 +427,10 @@
 // Perform all calculations in a single expression
 
 // Part : a
-// var x = 5;
-// var add =  x + 5;
-// var multi = x * 10;
-// var divi = x / 2;
+// var x = 15;
 
-// document.write("Addition :" + " " + add + "<br >" + "Multiplication :" + " " + multi + "<br >" + "Division :" + " " + divi);
+// var sum = (x + 5 * 10) / 2
+// alert(sum);
 
 // ●○●○●○●○●●○●○●○●○● Question no :11 ●○●○●○●○●●○●○●○●○●
 
@@ -901,6 +910,17 @@
 //1. Write a program that takes a character (number or string) in a variable & checks whether the given input is a
 // number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).
 
+// var char = prompt("Enter any  character to check ...");
+
+// if (char >= "A" && char <= "Z"){
+//         document.write(`${char} is an UpperCase character <br>`);
+// }
+// else if (char >= "a" && char <= "z"){
+//         document.write(`${char} is an LowerCase character <br>`);
+// }
+// else{
+//        document.write(`${char} is not an aplhabetic character <br>`);
+// } 
 
 
 // ●○●○●○●○●●○●○●○●○● Question no :02  ●○●○●○●○●●○●○●○●○●
