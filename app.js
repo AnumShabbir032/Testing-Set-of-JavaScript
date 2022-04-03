@@ -549,7 +549,8 @@ var num = 5;
 
 
 //5. Write a program to take input a number from user &
-// display it’s multiplication table on your browser. If user does not enter a new number, multiplicationtable of 5 should be displayed by default.
+// display it’s multiplication table on your browser. If user does not enter a new number, 
+// multiplicationtable of 5 should be displayed by default.
 
 
 // For this task i am using for loops in if else condition ;
@@ -623,8 +624,8 @@ var num = 5;
 // ●○●○●○●○●●○●○●○●○● Question no :02  ●○●○●○●○●●○●○●○●○● 
 
 
-// 2. Write a program to take “gender” as input from user. If the user is male, give the message: Good Morning Sir. If the
-// user is female, give the message: Good Morning Ma’am.
+// 2. Write a program to take “gender” as input from user. If the user is male, 
+// give the message: Good Morning Sir. If the user is female, give the message: Good Morning Ma’am.
 
 // var gender = prompt("Enter your gender here....");
 
@@ -643,7 +644,8 @@ var num = 5;
 
        
 
-//3. Write a program to take input color of road traffic signal from the user & show the message according to this table:
+//3. Write a program to take input color of road traffic signal from the user & 
+// show the message according to this table:
 
 // var traColor = prompt("Enter traffic Color");
 // if(traColor == "red"){
@@ -663,7 +665,8 @@ var num = 5;
 // ●○●○●○●○●●○●○●○●○● Question no :04  ●○●○●○●○●●○●○●○●○●
 
 
-// 4. Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less than 0.25litres,
+// 4. Write a program to take input remaining fuel in car (in litres) from user.
+//  If the current fuel is less than 0.25litres,
 // show the message “Please refill the fuel in your car”
 
 // var currFuel = +prompt("Enter your remaining fuel in car, (in litres)");
@@ -753,8 +756,9 @@ var num = 5;
 
 // ●○●○●○●○●●○●○●○●○● Question no :06  ●○●○●○●○●●○●○●○●○●
 
-// 6. Write a program to take input the marks obtained in three subjects & total marks. Compute & show the resulting
-// percentage on your page. Take percentage & compute grade as per following table:
+// 6. Write a program to take input the marks obtained in three subjects & total marks. 
+// Compute & show the resulting percentage on your page. Take percentage & compute grade 
+// as per following table:
 
 
 // var sub1 = +prompt("Enter Subject 1 mark");
@@ -807,7 +811,8 @@ var num = 5;
 // ●○●○●○●○●●○●○●○●○● Question no :08  ●○●○●○●○●●○●○●○●○●
 
 
-//8. Write a program to check whether the given number is divisible by 3. Show the message to the user if the number
+//8. Write a program to check whether the given number is divisible by 3. 
+// Show the message to the user if the number
 // is divisible by 3.
 
 // var num = prompt("Check the number is divisible by 3 or not."); 
@@ -837,7 +842,8 @@ var num = 5;
 // ●○●○●○●○●●○●○●○●○● Question no :10  ●○●○●○●○●●○●○●○●○●
 
 
-//10. Write a program that takes temperature as input and shows a message based on following criteria
+//10. Write a program that takes temperature as input and shows a message 
+// based on following criteria
 // a. T > 40 then “It is too hot outside.”
 // b. T > 30 then “The Weather today is Normal.”
 // c. T > 20 then “Today’s Weather is cool.”
@@ -866,7 +872,8 @@ var num = 5;
 // ●○●○●○●○●●○●○●○●○● Question no :11  ●○●○●○●○●●○●○●○●○●
 
 
-// 11. Write a program to create a calculator for +,-,*, / & % using if statements. Take the following input:
+// 11. Write a program to create a calculator for +,-,*, / & % using if statements. 
+// Take the following input:
 // a. First number
 // b. Second number
 // c. Operation (+, -, *, /, %)
@@ -907,8 +914,9 @@ var num = 5;
 
 // ●○●○●○●○●●○●○●○●○● Question no :01  ●○●○●○●○●●○●○●○●○●
 
-//1. Write a program that takes a character (number or string) in a variable & checks whether the given input is a
-// number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).
+//1. Write a program that takes a character (number or string) in a variable & checks 
+// whether the given input is a number, uppercase letter or lower case letter. 
+// (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).
 
 // var char = prompt("Enter any  character to check ...");
 
@@ -922,11 +930,23 @@ var num = 5;
 //        document.write(`${char} is not an aplhabetic character <br>`);
 // } 
 
+// var char = prompt("Enter any  character to check ...");
+
+// if(char.charCodeAt() >= 65 && char.charCodeAt() <= 90) {
+//     alert("It is an UpperCase Character")
+// }
+// else if(char.charCodeAt() >= 97 && char.charCodeAt() <= 122) {
+//     alert("It is a LowerCase Character")
+// }else {
+//     alert("It is a number")
+// }
+
 
 // ●○●○●○●○●●○●○●○●○● Question no :02  ●○●○●○●○●●○●○●○●○●
 
 
-// 2. Write a JavaScript program that accept two integers and display the larger. Also show if the two integers are equal.
+// 2. Write a JavaScript program that accept two integers and display the larger. 
+// Also show if the two integers are equal.
 
 // I'm using Math.max() , math object here because , it returns the highest value in a list of arguments.
 
@@ -952,7 +972,8 @@ var num = 5;
 // ●○●○●○●○●●○●○●○●○● Question no :03  ●○●○●○●○●●○●○●○●○●
 
 
-//3. Write a program that takes input a number from user & state whether the number is positive, negative or zero.
+//3. Write a program that takes input a number from user & state whether the number is 
+// positive, negative or zero.
 
 
 // var a = prompt("Enter number");
@@ -994,7 +1015,7 @@ var num = 5;
 // c. Validate the two passwords:
 // i. Check if user has entered password. If not, then give message “ Please enter your password”
 // ii. Check if both passwords are same. If they are same, show message “Correct! 
-The password you entered matches the original password”. Show “Incorrect password” otherwise.
+// The password you entered matches the original password”. Show “Incorrect password” otherwise.
 
 
 // var pass = "Happycoding";
@@ -1069,7 +1090,12 @@ The password you entered matches the original password”. Show “Incorrect pas
 //○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 11 to 13  End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
 
 
-// ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃Class Assignment ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+
+
+
+
+
+// ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃ Task 1 ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
 
 // var tableNum = +prompt("Enter table number");
 // var tableStart = +prompt("Enter the table number where it starts");
@@ -1079,7 +1105,13 @@ The password you entered matches the original password”. Show “Incorrect pas
 //         document.write(`${tableNum} x ${i} = ${tableNum * i}<br />`);
 //         }
 
-// ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃Class Assignment End ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+// ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃Task 1 End ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+
+
+
+
+
+
 
 
 
@@ -1091,3 +1123,61 @@ The password you entered matches the original password”. Show “Incorrect pas
 
 // 1. Declare an empty array using JS literal notation to store
 // student names in future.
+
+// var studentNames = [];
+
+// ●○●○●○●○●●○●○●○●○● Question no :02  ●○●○●○●○●●○●○●○●○●
+
+// 2. Declare an empty array using JS object notation to store
+// student names in future.
+
+// ???????
+
+// ●○●○●○●○●●○●○●○●○● Question no :03  ●○●○●○●○●●○●○●○●○●
+
+// 3. Declare and initialize a strings array.
+
+// var stringArray = ["one", "two", "three"];
+
+// ●○●○●○●○●●○●○●○●○● Question no :04  ●○●○●○●○●●○●○●○●○●
+
+// 4. Declare and initialize a numbers array.
+
+// var numberArray = [1,2,3];
+
+// ●○●○●○●○●●○●○●○●○● Question no :05  ●○●○●○●○●●○●○●○●○●
+
+// 5. Declare and initialize a boolean array.
+
+// var booleanArray = [ture , false , yes , no , on ,off];
+
+// ●○●○●○●○●●○●○●○●○● Question no :06  ●○●○●○●○●●○●○●○●○●
+
+// 6. Declare and initialize a mixed array
+
+// var mixedArray = ["string", 8 , null , ture , undefined];
+
+// ●○●○●○●○●●○●○●○●○● Question no :07  ●○●○●○●○●●○●○●○●○●
+
+// 7. Declare and Initialize an array and store available education qualifications in Pakistan 
+// (e.g. SSC, HSC, BCS, BS, BCOM, MS, M. Phil., PhD). Show the listed  qualifications in your browser like:
+
+// var qualiList = ["SSC","HSC","BCS","BS","BCOM","MS","M.", "Phil", "PhD"];
+
+// document.write("Qualification"+ "<br />");
+
+// for(var i = 0 ; i < qualiList.length ; i++){
+//         document.write(`<br /> ${i+1}) ${qualiList[i]}` );
+// }
+
+// ●○●○●○●○●●○●○●○●○● Question no :08  ●○●○●○●○●●○●○●○●○●
+
+// 8. Write a program to store 3 student names in an array.Take
+// another array to store score of these three students.
+// Assume that total marks are 500 for each student, display
+// the scores & percentages of students like:
+
+// var studentName =["Michael","John","Tony"];
+// var studentMarks =[320,230,480];
+// var percentage = [studentMarks[0]/500 * 100,studentMarks[1]/500 * 100,studentMarks[2]/500 * 100];
+
