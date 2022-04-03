@@ -993,7 +993,8 @@ var num = 5;
 // b. Asks user to enter his/her password
 // c. Validate the two passwords:
 // i. Check if user has entered password. If not, then give message “ Please enter your password”
-// ii. Check if both passwords are same. If they are same, show message “Correct! The password you entered matches the original password”. Show “Incorrect password” otherwise.
+// ii. Check if both passwords are same. If they are same, show message “Correct! 
+The password you entered matches the original password”. Show “Incorrect password” otherwise.
 
 
 // var pass = "Happycoding";
@@ -1043,8 +1044,8 @@ var num = 5;
 // ●○●○●○●○●●○●○●○●○● Question no :07  ●○●○●○●○●●○●○●○●○●
 
 
-// 7. Write a program that takes time as input from user in 24 hours clock format like: 1900 = 7pm. Implement the
-// following case using if, else & else if statements.
+// 7. Write a program that takes time as input from user in 24 hours clock format like:
+//  1900 = 7pm. Implement the following case using if, else & else if statements.
 
 
 // var time = +prompt("Enter your current time","Formate like: 1900");
@@ -1065,9 +1066,28 @@ var num = 5;
 //         alert("Enter valid input")
 // }
 
-
-
-
-
-
 //○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 11 to 13  End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
+
+
+// ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃Class Assignment ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+
+// var tableNum = +prompt("Enter table number");
+// var tableStart = +prompt("Enter the table number where it starts");
+// var tableEnd = +prompt("Enter the table number where is ends");
+
+// for (var i = tableStart; i <= tableEnd; i++) {
+//         document.write(`${tableNum} x ${i} = ${tableNum * i}<br />`);
+//         }
+
+// ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃Class Assignment End ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+
+
+
+             // =========════============================ ⋆★⋆ ════===========================================
+                                            //Chapter :13 to 15 "Array" 
+             // =========════============================ ⋆★⋆ ════===========================================
+
+// ●○●○●○●○●●○●○●○●○● Question no :01  ●○●○●○●○●●○●○●○●○●
+
+// 1. Declare an empty array using JS literal notation to store
+// student names in future.
