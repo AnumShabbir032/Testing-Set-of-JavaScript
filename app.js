@@ -1119,6 +1119,8 @@ var num = 5;
                                             //Chapter :13 to 15 "Array" 
              // =========════============================ ⋆★⋆ ════===========================================
 
+
+
 // ●○●○●○●○●●○●○●○●○● Question no :01  ●○●○●○●○●●○●○●○●○●
 
 // 1. Declare an empty array using JS literal notation to store
@@ -1131,7 +1133,7 @@ var num = 5;
 // 2. Declare an empty array using JS object notation to store
 // student names in future.
 
-// ???????
+// var studentNames = new Array();
 
 // ●○●○●○●○●●○●○●○●○● Question no :03  ●○●○●○●○●●○●○●○●○●
 
@@ -1180,4 +1182,234 @@ var num = 5;
 // var studentName =["Michael","John","Tony"];
 // var studentMarks =[320,230,480];
 // var percentage = [studentMarks[0]/500 * 100,studentMarks[1]/500 * 100,studentMarks[2]/500 * 100];
+// var totalMark = 500;
 
+// document.write(`Score of ${studentName[0]} ${studentMarks[0]} Percentage: ${percentage[0]}%<br />`);
+// document.write(`Score of ${studentName[1]} ${studentMarks[1]} Percentage: ${percentage[1]}% <br />`);
+// document.write(`Score of ${studentName[2]} ${studentMarks[2]} Percentage: ${percentage[2]}%<br />`);
+
+
+// for(var i = 0; i < studentMarks.length ; i++){
+//         document.write(`Score of ${studentName[i]}  ${studentMarks[i]}  Percentage: ${percentage[i]}%<br />`);
+// }
+
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :09  ●○●○●○●○●●○●○●○●○●
+
+
+// 9. Initialize an array with color names. Display the array
+// elements in your browser.
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥  
+
+// a. Ask the user what color he/she wants to add to the
+// beginning & add that color to the beginning of the array.
+// Display the updated array in your browser.
+
+// var colors =["Red" , "Green" , "Blue" , "Yellow" , "Black"]
+
+// document.write(`Colors : ${colors} <br /> <br />`)
+
+// var colorName = prompt("what color you wants to add in the begining");
+// colors.unshift(colorName)
+// document.write(  `Colors unshift() : ${colors} <br /> <br />`)
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+// b. Ask the user what color he/she wants to add to the end
+// & add that color to the end of the array. Display the
+// updated array in your browser.
+
+// var colors =["Red" , "Green" , "Blue" , "Yellow" , "Black"]
+
+// document.write(`Colors : ${colors} <br /> <br />`)
+
+// var colorName = prompt("what color you wants to add in the end");
+// colors.push(colorName)
+// document.write(  `Colors push() : ${colors} <br /> <br />`)
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+// c. Add two more color to the beginning of the array.
+// Display the updated array in your browser.
+
+// var colors =["Red" , "Green" , "Blue" , "Yellow" , "Black"]
+
+// document.write(`Colors : ${colors} <br /> <br />`)
+
+// var colorName_1 = prompt("Enter first color name to add in the begining");
+// var colorName_2 = prompt("Enter second color name to add in the begining");
+// colors.unshift(colorName_1,colorName_2)
+// document.write(  `Colors unshift() : ${colors} <br /> <br />`)
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+// d. Delete the first color in the array. Display the updated
+// array in your browser.
+
+//  var colors =["Red" , "Green" , "Blue" , "Yellow" , "Black"]
+
+// document.write(`Colors : ${colors} <br /> <br />`)
+
+// colors.shift(colors)
+// document.write(  `Colors shift() : ${colors} <br /> <br />`)
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+// e. Delete the last color in the array. Display the updated
+// array in your browser.
+
+// var colors =["Red" , "Green" , "Blue" , "Yellow" , "Black"]
+
+// document.write(`Colors : ${colors} <br /> <br />`)
+
+// colors.pop(colors)
+// document.write(  `Colors pop() : ${colors} <br /> <br />`)
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+// f. Ask the user at which index he/she wants to add a color
+// & color name. Then add the color to desired
+// position/index. . Display the updated array in your
+// browser.
+ 
+// var indexNum =+prompt("Enter an index number");
+// var addColor = prompt("Enter a color name");
+
+// colors.splice(indexNum , 0 , addColor);
+
+// document.write(  `Colors splice() Add : ${colors} <br /> <br />`)
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+// g. Ask the user at which index he/she wants to delete
+// color(s) & how many colors he/she wants to delete. Then
+// remove the same number of color(s) from user-defined
+// position/index. . Display the updated array in your
+// browser.
+
+// var indexNum =+prompt("Enter an index number");
+// var deleteCount = +prompt("Enter a number of delete count");
+
+// colors.splice(indexNum , deleteCount );
+
+// document.write(  `Colors splice() Delete: ${colors} <br /> <br />`)
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :10  ●○●○●○●○●●○●○●○●○●
+
+
+// 10. Write a program to store student scores in an array &
+// sort the array in ascending order using Array’s sort
+// method.
+
+// var studScores = [320,230,480,120];
+
+// document.write(`Scores Of Students: ${studScores}<br /><br />`);
+
+// studScores.sort();
+
+// document.write(`Scores Of Students: ${studScores}` );
+
+// ●○●○●○●○●●○●○●○●○● Question no :11  ●○●○●○●○●●○●○●○●○●
+
+// 11. Write a program to initialize an array with city names.
+// Copy 3 array elements from cities array to selectedCities
+// array.
+
+// var cities = ["Karachi","Lahore","Islamabad","Quetta","Peshawar"];
+
+// document.write(`Cities: ${cities}<br /><br />`)
+
+// var selectedCities = cities.slice(2,4);
+// document.write(`Selected Cities: ${selectedCities}`);
+
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :12  ●○●○●○●○●●○●○●○●○●
+
+
+
+// 12. Write a program to create a single string from the
+// below mentioned array:
+// var arr = [“This ”, “ is ”, “ my ”, “ cat”];
+// (Use array’s join method)
+
+// var senten = ["This" , "is" , "my" , "cat"];
+
+// document.write(`${senten} <br /><br />`);
+
+// var arr = senten.join(" ");   
+
+// document.write(`Join Array: ${arr}`);
+
+// ●○●○●○●○●●○●○●○●○● Question no :13  ●○●○●○●○●●○●○●○●○●
+
+// 13. Create a new array. Store values one by one in such a way
+// that you can access the values in the order in which they
+// were stored. (FIFO-First In First Out)
+
+// var devices = ["keyboard","mouse" , "printer" , "monitor"];
+
+// document.write(`Devices = ${devices}<br /> <br />`);
+
+// for(var i = 0; i < devices.length ; i++){
+//         document.write(`<br /> Out: <br /> ${devices[i]}`);
+// }
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :14  ●○●○●○●○●●○●○●○●○●
+
+
+// 14. Create a new array. Store values one by one in such a way
+// that you can access the values in reverse order. (Last InFirst Out)
+
+
+// var devices = ["keyboard","mouse" , "printer" , "monitor"];
+
+// document.write(`Devices = ${devices}<br /> <br />`);
+
+// for(var i = devices.length -1 ; i >= 1 ; i--){
+//         document.write(`<br /> Out: <br /> ${devices[i]}`);
+// }
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :15  ●○●○●○●○●●○●○●○●○●
+
+
+// 15. Write a program to store phone manufacturers (Apple,
+// Samsung, Motorola, Nokia, Sony & Haier) in an array.
+// Display the following dropdown/select menu in your
+// browser using document.write() method:
+
+
+// var phones = ["Apple","Samsung", "Motorola", "Nokia", "Sony" , "Haier"];
+
+// document.write(`<select> 
+//                <option>${phones[0]}<option/>
+//                <option>${phones[1]}<ption/>
+//                <option>${phones[2]}<option/>
+//                <option>${phones[3]}<option/>
+//                <option>${phones[4]}<option/>
+//                <option>${phones[5]}<option/>
+//                <select/>`)
+
+
+// document.write(`<select>`)
+// for(var i = 0; i< phones.length ; i++){ 
+// document.write(`<option>${phones[i]}<option/>`)    
+// }
+// document.write(`<select/>`)
