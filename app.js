@@ -1,6 +1,6 @@
-                 // =========════============================ ⋆★⋆ ════===========================================
-                                                     // Chapter : 01 "Alert"
-                 // =========════============================ ⋆★⋆ ════===========================================
+// =========════============================ ⋆★⋆ ════===========================================
+// Chapter : 01 "Alert"
+// =========════============================ ⋆★⋆ ════===========================================
 
 
 // ●○●○●○●○●●○●○●○●○● Question no :01 ●○●○●○●○●●○●○●○●○●
@@ -54,9 +54,9 @@
 
 
 
-               //=========════============================ ⋆★⋆ ════===========================================
-                                    // Chapter : 02 "VARIABLES FOR STRINGS"
-               // =========════============================ ⋆★⋆ ════===========================================
+//=========════============================ ⋆★⋆ ════===========================================
+// Chapter : 02 "VARIABLES FOR STRINGS"
+// =========════============================ ⋆★⋆ ════===========================================
 
 
 // ●○●○●○●○●●○●○●○●○● Question no :01 ●○●○●○●○●●○●○●○●○●
@@ -136,9 +136,9 @@
 
 
 
-              //=========════============================ ⋆★⋆ ════===========================================
-                                           // Chapter: 03 "VARIABLES FOR NUMBERS"
-              //=========════============================ ⋆★⋆ ════===========================================
+//=========════============================ ⋆★⋆ ════===========================================
+// Chapter: 03 "VARIABLES FOR NUMBERS"
+//=========════============================ ⋆★⋆ ════===========================================
 
 
 // ●○●○●○●○●●○●○●○●○● Question no :01 ●○●○●○●○●●○●○●○●○●
@@ -181,9 +181,9 @@
 //○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 03 End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
 
 
-              // =========════============================ ⋆★⋆ ════===========================================
-                                 //Chapter :04 ""VARIABLE NAMES: LEGAL & ILLEGAL " 
-              // =========════============================ ⋆★⋆ ════===========================================
+// =========════============================ ⋆★⋆ ════===========================================
+//Chapter :04 ""VARIABLE NAMES: LEGAL & ILLEGAL " 
+// =========════============================ ⋆★⋆ ════===========================================
 
 // ●○●○●○●○●●○●○●○●○● Question no :01 ●○●○●○●○●●○●○●○●○●
 
@@ -227,9 +227,9 @@
 //○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 04 End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
 
 
-                  // =========════============================ ⋆★⋆ ════===========================================
-                                    //Chapter :05 "MATH EXPRESSIONS" 
-                  // =========════============================ ⋆★⋆ ════===========================================
+// =========════============================ ⋆★⋆ ════===========================================
+//Chapter :05 "MATH EXPRESSIONS" 
+// =========════============================ ⋆★⋆ ════===========================================
 
 
 
@@ -457,16 +457,16 @@ var num = 5;
 
 // var radius = 3;
 
-              //   ──⇌••⇋────⇌••⇋────⇌••⇋──
+//   ──⇌••⇋────⇌••⇋────⇌••⇋──
 
 // To calculate the circumference i declaered radius as 3; then ,i multiply the radius by 2 to get the diameter.Then multiply the result by π, or 3.14 for an estimation.
-               
+
 
 // var circumference = 3.142 * radius * 2;
 // // That's it; i found the circumference of the circle.
 //   document.write("The circumference is " + circumference+ "<br>");
-           
-          //  ──⇌••⇋────⇌••⇋────⇌••⇋──
+
+//  ──⇌••⇋────⇌••⇋────⇌••⇋──
 // To calculate the Area , As i store the value of radius is 3 Now here Im using MAth.pi it returns the ratio of a circle's circumference to its diameter: then multiple to (radius)square 
 
 //   var area = Math.PI * radius * radius;
@@ -500,9 +500,9 @@ var num = 5;
 //○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 05 End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
 
 
-            // =========════============================ ⋆★⋆ ════===========================================
-                                          //Chapter :06 to 09 "MATH EXPRESSIONS" 
-            // =========════============================ ⋆★⋆ ════===========================================
+// =========════============================ ⋆★⋆ ════===========================================
+//Chapter :06 to 09 "MATH EXPRESSIONS" 
+// =========════============================ ⋆★⋆ ════===========================================
 
 
 // ●○●○●○●○●●○●○●○●○● Question no :01  ●○●○●○●○●●○●○●○●○●
@@ -601,9 +601,9 @@ var num = 5;
 
 //○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 06 to 09  End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
 
-             // =========════============================ ⋆★⋆ ════===========================================
-                              //Chapter :09 to 11 "USER INPUT & CONDITIONAL STATEMENT" 
-             // =========════============================ ⋆★⋆ ════===========================================
+// =========════============================ ⋆★⋆ ════===========================================
+//Chapter :09 to 11 "USER INPUT & CONDITIONAL STATEMENT" 
+// =========════============================ ⋆★⋆ ════===========================================
 
 
 // ●○●○●○●○●●○●○●○●○● Question no :01  ●○●○●○●○●●○●○●○●○●            
@@ -619,7 +619,7 @@ var num = 5;
 // else{
 //        alert("Welcome to " + cityName);
 // }
- 
+
 
 // ●○●○●○●○●●○●○●○●○● Question no :02  ●○●○●○●○●●○●○●○●○● 
 
@@ -642,7 +642,7 @@ var num = 5;
 
 // ●○●○●○●○●●○●○●○●○● Question no :03  ●○●○●○●○●●○●○●○●○●
 
-       
+
 
 //3. Write a program to take input color of road traffic signal from the user & 
 // show the message according to this table:
@@ -907,9 +907,9 @@ var num = 5;
 
 
 
-            // =========════============================ ⋆★⋆ ════===========================================
-                    //Chapter :12 to 13 "IF…ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS" 
-             // =========════============================ ⋆★⋆ ════===========================================
+// =========════============================ ⋆★⋆ ════===========================================
+//Chapter :12 to 13 "IF…ELSE & ELSE IF STATEMENT, TESTING SET OF CONDITIONS" 
+// =========════============================ ⋆★⋆ ════===========================================
 
 
 // ●○●○●○●○●●○●○●○●○● Question no :01  ●○●○●○●○●●○●○●○●○●
@@ -996,7 +996,7 @@ var num = 5;
 
 //4. Write a program that takes a character (i.e. string of length
 // 1) and returns true if it is a vowel, false otherwise
-      
+
 // var letters = prompt("Enter any letter to check its vowel or not....")
 // if(letters == "a" || letters == "e" || letters == "i" || letters == "o" || letters == "u" ){
 //        alert("Vowel , Its True")
@@ -1115,9 +1115,9 @@ var num = 5;
 
 
 
-             // =========════============================ ⋆★⋆ ════===========================================
-                                            //Chapter :13 to 15 "Array" 
-             // =========════============================ ⋆★⋆ ════===========================================
+// =========════============================ ⋆★⋆ ════===========================================
+//Chapter :13 to 15 "Array" 
+// =========════============================ ⋆★⋆ ════===========================================
 
 
 
@@ -1282,7 +1282,7 @@ var num = 5;
 // & color name. Then add the color to desired
 // position/index. . Display the updated array in your
 // browser.
- 
+
 // var indexNum =+prompt("Enter an index number");
 // var addColor = prompt("Enter a color name");
 
@@ -1417,3 +1417,183 @@ var num = 5;
 
 
 //○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 13 to 15  End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
+
+
+
+// =========════============================ ⋆★⋆ ════===========================================
+//Chapter :13 to 15 "Array & Loops" 
+// =========════============================ ⋆★⋆ ════===========================================
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :01  ●○●○●○●○●●○●○●○●○●
+
+// 1. Declare and initialize an empty multidimensional array.
+// (Array of arrays)
+
+// var multiArr = [[]];
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :02  ●○●○●○●○●●○●○●○●○●
+
+// 2. Declare and initialize a multidimensional array
+// representing the following matrix:
+
+
+// var arr1 = [0, 1, 2, 3];
+// var arr2 = [1, 0, 1, 2];
+// var arr3 =[2, 1, 0, 1];
+
+// var multiArr = [arr1,arr2,arr3];
+// document.write(multiArr);
+ 
+// for(var i = 0; i< multiArr.length ; i++){
+//         document.write(multiArr[i].join('') + "<br />")
+// }
+
+// ●○●○●○●○●●○●○●○●○● Question no :03  ●○●○●○●○●●○●○●○●○●
+
+// 3. Write a program to print numeric counting from 1 to 10.
+
+// for(var i = 1 ; i <= 10; i++){
+//         document.write(`${i}<br />`);
+// }
+
+// ●○●○●○●○●●○●○●○●○● Question no :04  ●○●○●○●○●●○●○●○●○●
+
+
+// 4. Write a program to print multiplication table of any
+// number using for loop. Table number & length should be
+// taken as an input from user.
+
+// var tableNum = +prompt("Enter a number to show its multiplication table");
+// var tableLength = +prompt("Enter length multiplication table");
+
+
+// document.write(`Multiplication table of ${tableNum} <br / > Lenght ${tableLength} <br />`  ) 
+// for(var i = 1; i <= tableLength; i++ ){
+//         document.write(`${tableNum} x ${i} = ${tableNum * i}<br />`);
+// }
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :05  ●○●○●○●○●●○●○●○●○●
+
+
+// 5. Write a program to print items of the following array
+// using for loop:
+
+// fruits = ["apple", "banana", "mango", "orange","strawberry"]
+
+// for(var i = 0 ;  i < fruits.length ; i++){
+//         document.write(`${fruits[i]}<br />`)
+// }
+
+// for (var index = 0 ; index < fruits.length ; index++){
+// document.write(`<br /> Element at index ${index} is ${fruits[index]}`)
+// }
+
+// ●○●○●○●○●●○●○●○●○● Question no :06  ●○●○●○●○●●○●○●○●○●
+
+// 6. Generate the following series in your browser. See
+// example output.
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥  
+// a. Counting: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+
+// document.write(`<h3>Counting:</h3>`)
+// for (var i = 1 ; i <= 15 ; i++){
+//         document.write(i+",")
+// }
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥ 
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥ 
+// b. Reverse counting: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+
+// document.write(`<h3>Reverse Counting:</h3>`)
+// for (var i = 10 ; i >= 1 ; i--){
+//         document.write(i+",")
+// }
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥ 
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥ 
+// c. Even: 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20
+
+// document.write(`<h3>Even Number:</h3>`)
+// for (var i = 0 ; i <= 20 ; i = i + 2) {
+//         document.write(i+",")
+// }
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥ 
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥ 
+// d. Odd: 1, 3, 5, 7, 9, 11, 13, 15, 17, 19
+
+// document.write(`<h3>Odd Number:</h3>`)
+// for (var i = 1 ; i <= 20 ; i = i + 2) {
+//         document.write(i+",")
+// }
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥ 
+
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥ 
+// e. Series: 2k, 4k, 6k, 8k, 10k, 12k, 14k, 16k, 18k, 20k
+
+// document.write(`<h3>Series Number:</h3>`)
+// for (var i = 2 ; i <= 20 ; i = i + 2) {
+//         document.write(`${i}k, `)
+// }
+// ◤━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━◥ 
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :07   ●○●○●○●○●●○●○●○●○●
+
+// 7. You have an array
+// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an
+// array.
+// After searching, prompt the user whether the given item is
+// found in the list or not. Example:
+
+
+// var bakery = prompt("Wellcome to 'Sweet&Cut' bakery. What do yo want to order?").toLowerCase()
+// var flag = "yes"
+// Arr = ["cake", "apple pie", "cookie", "chips", "patties"]
+
+//   for (var i = 0 ; i < Arr.length ; i++){
+//           if(bakery === Arr[i]){
+//                 flag = "no"
+//           document.write(`${bakery} is Available at index ${i} in our bakery`)
+//           }
+// }
+// if(flag === "yes"){
+//         document.write(`We are sorry. ${bakery} is not available in our bakery`)
+// }
+
+// ●○●○●○●○●●○●○●○●○● Question no :08   ●○●○●○●○●●○●○●○●○●
+
+// 8. Write a program to identify the largest number in the
+// given array.
+
+num = [24, 53, 78, 91, 12];
+
+largestNum = 0;
+
+
+// for (var i = 0; i < num.length ; i++){
+//         var arr = num[i];
+//         if(arr > largestNum) {
+//                 largestNum = arr;
+               
+//         }
+//         console.log(largestNum)
+// }
+
+for(var a = 0; a < num.length ; a++){
+        for(var b = 1 ; b <  num[b].length ; b++){
+                // for(var c = 2; c < num.length ; c++){
+                        if(num[a][b] > largestNumber[a]){
+                               document.write(largestNum[a]=num[a][b]);
+                        }
+        
+        }
+}
+// console.log(num[num.length-1]);
