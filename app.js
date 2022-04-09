@@ -328,7 +328,7 @@
 // ●○●○●○●○●●○●○●○●○● Question no :05 ●○●○●○●○●●○●○●○●○●
 
 //5. Write a script to display multiplication table of any number in your browser.
-var num = 5;
+// var num = 5;
 
 
 
@@ -1421,7 +1421,7 @@ var num = 5;
 
 
 // =========════============================ ⋆★⋆ ════===========================================
-//Chapter :13 to 15 "Array & Loops" 
+//Chapter :17 to 20 "Array & Loops" 
 // =========════============================ ⋆★⋆ ════===========================================
 
 
@@ -1573,27 +1573,135 @@ var num = 5;
 // 8. Write a program to identify the largest number in the
 // given array.
 
-num = [24, 53, 78, 91, 12];
+// arr = [24, 53, 78, 91, 12];
+// document.write(`Array item ${arr}<br />`)
+// var largest = arr[0];
 
-largestNum = 0;
+// for (var i = 0; i < arr.length; i++) {
+//     if (largest < arr[i] ) {
+//         largest = arr[i];
+//     }
+// }
+// document.write(`Largest number is : ${largest}<br />`);
 
 
-// for (var i = 0; i < num.length ; i++){
-//         var arr = num[i];
-//         if(arr > largestNum) {
-//                 largestNum = arr;
-               
-//         }
-//         console.log(largestNum)
+// arr = [24, 53, 78, 91, 12];
+
+// document.write(Math.max(...arr));
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :09   ●○●○●○●○●●○●○●○●○●
+
+// 9. Write a program to identify the smallest number in the
+// given array.
+
+
+// var arr = [24, 53, 78, 91, 12]
+
+
+// var smallNum = arr[0]; 
+// for (var i = 0; i < arr.length; i++) {
+//     if(arr[i] < smallNum)
+//     {
+//         smallNum = arr[i];
+//     }
+
+// }
+// document.write(`Smallest number is : ${smallNum}<br />`);
+
+
+// arr = [24, 53, 78, 91, 12];
+
+// document.write(Math.min(...arr));
+
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :09   ●○●○●○●○●●○●○●○●○●
+
+
+// 10. Write a program to print multiples of 5 ranging 1 to 100.
+
+// for (var i = 5 ; i <= 100 ; i+=5 ){
+//     document.write(`${i}<br />`)
 // }
 
-for(var a = 0; a < num.length ; a++){
-        for(var b = 1 ; b <  num[b].length ; b++){
-                // for(var c = 2; c < num.length ; c++){
-                        if(num[a][b] > largestNumber[a]){
-                               document.write(largestNum[a]=num[a][b]);
-                        }
-        
-        }
-}
-// console.log(num[num.length-1]);
+
+
+// =========════============================ ⋆★⋆ ════===========================================
+//Chapter :21 to 25 "STRING METHODS" 
+// =========════============================ ⋆★⋆ ════===========================================
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :01   ●○●○●○●○●●○●○●○●○●
+
+// 1. Write a program that takes two user inputs for first and
+// last name using prompt and merge them in a new variable
+// titled fullName. Greet the user using his full name.
+
+
+// var firstName =prompt("Enter your first name...");
+// var lastName =prompt("Enter your second name...");
+
+// var userName = firstName.concat(" ",lastName);
+
+// alert(`WellCome ${userName}`);
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :02   ●○●○●○●○●●○●○●○●○●
+
+// 2. Write a program to take a user input about his favorite
+// mobile phone model. Find and display the length of user
+// input in your browser.
+
+// var mobile =prompt("what's your favorite mobile phone model...?");
+
+// document.write(`My favorite phone is:${mobile} Length of string: ${mobile.length}`)
+
+// ●○●○●○●○●●○●○●○●○● Question no :03   ●○●○●○●○●●○●○●○●○●
+
+// 3. Write a program to find the index of letter “n” in the word
+// “Pakistani” and display the result in your browser .
+
+// var word = "Pakistan";
+// var index = word.indexOf("n");
+
+// document.write(`String: ${word} <br /> Index of "n" : ${index}`);
+
+// ●○●○●○●○●●○●○●○●○● Question no :04   ●○●○●○●○●●○●○●○●○●
+
+// 4. Write a program to find the last index of letter “l” in the
+// word “Hello World” and display the result in your browser.
+
+// var word = "Hello World";
+// var lastIndex = word.lastIndexOf("l");
+
+// document.write(`String: ${word} <br /> lastIndex of "l" : ${lastIndex}`);
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :05   ●○●○●○●○●●○●○●○●○●
+
+// 5. Write a program to find the character at 3rd index in the
+// word “Pakistani” and display the result in your browser.
+
+// var word = "Pakistani";
+// var wordChar = word.charAt(3);
+
+// document.write(`String: ${word} <br /> Character at index "3" : ${wordChar}`);
+
+
+// ●○●○●○●○●●○●○●○●○● Question no :06   ●○●○●○●○●●○●○●○●○●
+
+// 6. Repeat Q1 using string concat() method.
+
+// var word1 = "Pakistan";
+// var word2= "Zindabad"
+
+// var words = word1.concat(" ",word2);
+
+// document.write(`${words}`);
+
+// ●○●○●○●○●●○●○●○●○● Question no :07   ●○●○●○●○●●○●○●○●○●
+
+// 7. Write a program to replace the “Hyder” to “Islam” in the
+// word “Hyderabad” and display the result in your browser.
+
