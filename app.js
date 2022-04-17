@@ -1625,6 +1625,9 @@
 //     document.write(`${i}<br />`)
 // }
 
+//○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 17 to 20  End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
+
+
 
 
 // =========════============================ ⋆★⋆ ════===========================================
@@ -1860,6 +1863,8 @@
 
 // document.write(newWord.join("<br />"));
 
+
+
 // ●○●○●○●○●●○●○●○●○● Question no :17   ●○●○●○●○●●○●○●○●○●
 
 // 17. Write a program to display the last character of a user
@@ -1871,6 +1876,9 @@
 
 // document.write(`User input: ${userInput} <br > Last character of input: ${lastChar}`);
 
+
+
+
 // ●○●○●○●○●●○●○●○●○● Question no :18   ●○●○●○●○●●○●○●○●○●
 
 // 18. You have a string “The quick brown fox jumps over the
@@ -1878,10 +1886,148 @@
 // occurrences of word “the” in given string.
 
 
-var senten = "The quick brown fox jumps over the lazy dog".toLowerCase();
+// var senten = "The quick brown fox jumps over the lazy dog".toLowerCase();
 
-var result = senten.match(/the/g);
+// var result = senten.match(/the/g);
 
-var count = result.length;
+// var count = result.length;
 
-document.write(`Text: ${senten} <br /> There are ${count} occurrence(s) of word 'the'`);
+// document.write(`Text: ${senten} <br /> There are ${count} occurrence(s) of word 'the'`);
+
+
+
+//○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 21 to 25  End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
+
+
+
+
+// =========════============================ ⋆★⋆ ════===========================================
+//Chapter :26 to 30 "MATH METHODS" 
+// =========════============================ ⋆★⋆ ════===========================================
+
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 01   ●○●○●○●○●●○●○●○●○●
+
+
+// 1. Write a program that takes a positive integer from user &
+// display the following in your browser.
+// a. number
+// b. round off value of the number
+// c. floor value of the number
+// d. ceil value of the number
+
+// var userNum =prompt("Enter any positive integer number");
+
+// var roundOff = Math.round(userNum);
+// var floor = Math.floor(userNum);
+// var ceil = Math.ceil(userNum);
+
+// document.write(`Number : ${userNum} <br > RoundOff Value : ${roundOff} <br > Floor Value : ${floor} <br > Ceil Value : ${ceil}`);
+
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 02  ●○●○●○●○●●○●○●○●○●
+
+// 2. Write a program that takes a negative floating point
+// number from user & display the following in your browser.
+// a. number
+// b. round off value of the number
+// c. floor value of the number
+// d. ceil value of the number
+
+
+// var userNum =prompt("Enter any negative integer number");
+
+// var roundOff = Math.round(userNum);
+// var floor = Math.floor(userNum);
+// var ceil = Math.ceil(userNum);
+
+// document.write(`Number : ${userNum} <br > RoundOff Value : ${roundOff} <br > Floor Value : ${floor} <br > Ceil Value : ${ceil}`);
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 03  ●○●○●○●○●●○●○●○●○●
+
+
+// 3. Write a program that displays the absolute value of a
+// number.
+// E.g. absolute value of -4 is 4 & absolute value of 5 is 5
+
+// Math.abs() returns the absolute value of a number:
+
+// var num = -4;
+// var number = Math.abs(num);
+
+// document.write(`The absolute vale of ${num} is ${number}`);
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 04  ●○●○●○●○●●○●○●○●○●
+
+// 4. Write a program that simulates a dice using random()
+// method of JS Math class. Display the value of dice in your
+// browser.:
+
+// var diceRoll = Math.floor(Math.random() * 6) + 1;
+
+// document.write(`Random dice value : ${diceRoll}`);
+
+// ●○●○●○●○●●○●○●○●○● Question no : 05  ●○●○●○●○●●○●○●○●○●
+
+// 5. Write a program that simulates a coin toss using random()
+// method of JS Math class. Display the value of coin in your
+// browser.
+
+// var coinToss = Math.floor(Math.random() * 2) + 1;
+
+// if(coinToss === 2){
+//     document.write(`${coinToss} <br> Random coin value : Heads`)
+// }
+// else{
+//     document.write(`${coinToss} <br> Random coin value : Tails`)
+// }  
+
+// ●○●○●○●○●●○●○●○●○● Question no : 06  ●○●○●○●○●●○●○●○●○●
+
+// 6. Write a program that shows a random number between 1
+// and 100 in your browser.
+
+// var randomNum = Math.floor(Math.random() * 100) + 1;
+
+// document.write(`Random number between 1 to 100: ${randomNum}`)    
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 07  ●○●○●○●○●●○●○●○●○●
+
+// 7. Write a program that asks the user about his weight. Parse
+// the user input and display his weight in your browser.
+// Possible user inputs can be:
+// a. 50
+// b. 50kgs
+// c. 50.2kgs
+// d. 50.2kilograms
+
+// var user = prompt("Enter your weight in kilograms");
+
+// var floor = Math.floor(user);
+// document.write(`The weight of user is ${floor} kilograms`)
+
+// ●○●○●○●○●●○●○●○●○● Question no : 08  ●○●○●○●○●●○●○●○●○●
+
+// 8. Write a program that stores a random secret number from
+// 1 to 10 in a variable. Ask the user to input a number
+// between 1 and 10. If the user input equals the secret
+// number, congratulate the user.
+
+// var secretNum = 4;
+
+// var userNum = parseInt(prompt("Enter a number between 1 to 10..."));
+
+// if(userNum === secretNum){
+//     alert("Bingooo! it's Correct");
+// }
+// else{
+//     alert("Better luck next time");
+// }
+
+
+//○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 26 to 30  End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
