@@ -1650,6 +1650,8 @@
 // alert(`WellCome ${userName}`);
 
 
+
+
 // ●○●○●○●○●●○●○●○●○● Question no :02   ●○●○●○●○●●○●○●○●○●
 
 // 2. Write a program to take a user input about his favorite
@@ -1659,6 +1661,8 @@
 // var mobile =prompt("what's your favorite mobile phone model...?");
 
 // document.write(`My favorite phone is:${mobile} Length of string: ${mobile.length}`)
+
+
 
 // ●○●○●○●○●●○●○●○●○● Question no :03   ●○●○●○●○●●○●○●○●○●
 
@@ -1670,6 +1674,8 @@
 
 // document.write(`String: ${word} <br /> Index of "n" : ${index}`);
 
+
+
 // ●○●○●○●○●●○●○●○●○● Question no :04   ●○●○●○●○●●○●○●○●○●
 
 // 4. Write a program to find the last index of letter “l” in the
@@ -1679,6 +1685,7 @@
 // var lastIndex = word.lastIndexOf("l");
 
 // document.write(`String: ${word} <br /> lastIndex of "l" : ${lastIndex}`);
+
 
 
 // ●○●○●○●○●●○●○●○●○● Question no :05   ●○●○●○●○●●○●○●○●○●
@@ -1692,6 +1699,7 @@
 // document.write(`String: ${word} <br /> Character at index "3" : ${wordChar}`);
 
 
+
 // ●○●○●○●○●●○●○●○●○● Question no :06   ●○●○●○●○●●○●○●○●○●
 
 // 6. Repeat Q1 using string concat() method.
@@ -1702,6 +1710,8 @@
 // var words = word1.concat(" ",word2);
 
 // document.write(`${words}`);
+
+
 
 // ●○●○●○●○●●○●○●○●○● Question no :07   ●○●○●○●○●●○●○●○●○●
 
@@ -1725,6 +1735,8 @@
 // document.write(`City: Hyderabad <br /> After replacement: ${newText}`);
 
 
+
+
 // ●○●○●○●○●●○●○●○●○● Question no :08   ●○●○●○●○●●○●○●○●○●
 
 // 8. Write a program to replace all occurrences of “and” in the
@@ -1739,6 +1751,8 @@
 // document.write(`${newMessage}`)
 
 
+
+
 // ●○●○●○●○●●○●○●○●○● Question no :09   ●○●○●○●○●●○●○●○●○●
 
 // 9. Write a program that converts a string “472” to a number
@@ -1749,6 +1763,8 @@
 // var newNum = parseInt(num);
 
 // document.write(`Value: ${num}<br /> Type: String <br /> Value: ${newNum} <br /> Type: Number`);
+
+
 
 
 // ●○●○●○●○●●○●○●○●○● Question no :10   ●○●○●○●○●●○●○●○●○●
@@ -1764,6 +1780,8 @@
 // document.write(`User Input: ${word} <br /> Upper Case: ${userWord}`);
 
 
+
+
 // ●○●○●○●○●●○●○●○●○● Question no :11   ●○●○●○●○●●○●○●○●○●
 
 // 11. Write a program that takes user input. Convert and
@@ -1772,6 +1790,8 @@
 // var userInput = prompt("Enter a word to convert in title Case");
 
 // document.write(userInput.slice(0,1).toUpperCase() + userInput.slice(1,userInput.length).toLowerCase() );
+
+
 
 
 // ●○●○●○●○●●○●○●○●○● Question no :12   ●○●○●○●○●●○●○●○●○●
@@ -1785,6 +1805,8 @@
 // var newNum = num.replace(".","");
 
 // document.write(`Number : ${num} <br/> Result : ${newNum}`);
+
+
 
 
 // ●○●○●○●○●●○●○●○●○● Question no :13   ●○●○●○●○●●○●○●○●○●
@@ -1810,6 +1832,8 @@
 // if(flag === "no"){
 //     document.write("WelCome" + userName);
 // }
+
+
 
 // ●○●○●○●○●●○●○●○●○● Question no :14   ●○●○●○●○●●○●○●○●○●
 
@@ -2031,3 +2055,467 @@
 
 
 //○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 26 to 30  End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
+
+
+// =========════============================ ⋆★⋆ ════===========================================
+//Chapter :31 to 34 "DATE METHODS" 
+// =========════============================ ⋆★⋆ ════===========================================
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 01  ●○●○●○●○●●○●○●○●○●
+
+// 1. Write a program that displays current date and time in
+// your browser.
+
+
+// var rightnow =  new Date();
+
+// document.write(`${rightnow}`);
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 02  ●○●○●○●○●●○●○●○●○●
+
+// 2. Write a program that alerts the current month in words.
+// For example December.
+
+// var monthName = ["January","Feberuary","March","April","May","June","July","August","September","October","November","December"];
+
+// var rightnow = new Date();
+// var currentMonth = rightnow.getMonth();
+// var nameOfTheMonth = monthName[currentMonth];
+// document.write(`${nameOfTheMonth}`);
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 03  ●○●○●○●○●●○●○●○●○●
+
+// 3. Write a program that alerts the first 3 letters of the current
+// day, for example if today is Sunday then alert will show
+// // Sun.
+
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+// var now = new Date();
+// var theDay = now.getDay();
+// var nameOfToday = dayNames[theDay];
+
+// document.write(`Today is ${nameOfToday}`);
+
+// ●○●○●○●○●●○●○●○●○● Question no : 04  ●○●○●○●○●●○●○●○●○●
+
+// 4. Write a program that displays a message “It’s Fun day” if
+// its Saturday or Sunday today.
+
+// var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+// var now = new Date();
+// var theDay = now.getDay();
+// var nameOfToday = dayNames[theDay];
+
+// if(nameOfToday == "Sat" || nameOfToday == "Sun"){
+//     document.write(`It's Fun day`);
+// }else{
+//     document.write(`Have a good day`);
+// }
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 05  ●○●○●○●○●●○●○●○●○●
+
+// 5. Write a program that shows the message “First fifteen
+// days of the month” if the date is less than 16th of the month
+// else shows “Last days of the month”.
+
+
+// var now = new Date();
+// var theDay = now.getDate();
+// // var dateOfToday = dayNames[theDay];
+// document.write(`Today is ${theDay}`);
+
+// if(theDay <= 15){
+//     document.write(`First fifteen days of the month`);
+// }else{
+    // document.write(`Last days of the month`)
+// }
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 06  ●○●○●○●○●●○●○●○●○●
+
+// 6. Write a program that determines the minutes since
+// midnight, Jan. 1, 1970 and assigns it to a variable that
+// hasn't been declared beforehand. Use any variable you like
+// to represent the Date object.
+
+
+// var now  = new Date();
+
+// var milliSeconds = now.getTime();
+// var minutes = now / (1000 * 60 * 60);
+
+// document.write(`Current Date: ${now} <br >
+//  Elapsed milliseconds since January 1, 1970: ${milliSeconds} 
+//  <br > Elapsed minutes since January 1, 1970 : ${minutes}`)
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 07  ●○●○●○●○●●○●○●○●○●
+
+
+// 7. Write a program that tests whether it's before noon and
+// alert “Its AM” else “its PM”.
+
+// var now = new Date();
+
+// var time = now.getHours();
+
+// if(time == 0 || time == 12){
+//      alert(`It's AM`)
+// }else{
+//     alert(`It's PM`)
+// }
+
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 08  ●○●○●○●○●●○●○●○●○●
+
+// 8. Write a program that creates a Date object for the last day
+// of the last month of 2020 and assigns it to variable named
+// laterDate.
+
+
+// var now = new Date("December , 31 2022")
+
+// document.write(`Later Date : ${now}`)
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 09  ●○●○●○●○●●○●○●○●○●
+
+
+// 9. Create a date object of the starting date of this Ramadan
+// and alert the number of days past since 1st Ramadan?
+// Note: 1st Ramadan was on June 18, 2015
+
+// var oldDate = new Date("June 18 , 2015");
+
+// var now = new Date();
+
+// var oldMilliSeconds = oldDate.getTime();
+// var currentMilliSecond = now.getTime();
+
+// var diff = currentMilliSecond - oldMilliSeconds;
+
+// var daysTotal = diff / (1000 * 60 * 60 * 24);
+
+// daysTotal = Math.ceil(daysTotal);
+
+// document.write(`${daysTotal} days passed since 1st Ramdan , 2015`);
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 10  ●○●○●○●○●●○●○●○●○●
+
+
+// 10. Write a program that displays in your browser the
+// seconds that elapsed between the reference date and the
+// beginning of 2015.
+
+// var old = new Date("Dec , 5 2015");
+// var oldMilliSec = old.getTime();
+
+// var now = new Date("Dec , 25 2015");
+// var nowMilliSec = now.getTime();
+
+// var diff = nowMilliSec - oldMilliSec;
+
+// var totalSec = diff / (1000);
+// totalSec = Math.ceils(totalSec);
+
+
+// document.write(`On reference date ${old}, <br > ${totalSec} seconds had passed since beginning of 2015`)
+
+
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 11  ●○●○●○●○●●○●○●○●○●
+
+
+// 11. Create a Date object for the current date and time.
+// Extract the hours, reset the date object an hour ahead and
+// finally display the date object in your browser.
+
+
+// var now = new Date();
+
+// var hours = now.getHours();
+
+// document.write(`${now} <br > ${hours} hour ago , it was ${now}`)
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 12  ●○●○●○●○●●○●○●○●○●
+
+
+// 12. Write a program that creates a date object and show the
+// date in an alert box that is reset to 100 years back?
+
+
+// var now = new Date()
+// var year = new Date()
+// year.setFullYear(1915)
+// document.write(`TODAY : ${now} \n 100 years Back : ${year}`)
+
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 13  ●○●○●○●○●●○●○●○●○●
+
+// 13. Write a program to ask the user about his age. Calculate
+// and show his birth year in your browser.
+
+
+// var age = +prompt("Your age ?");
+
+// var now = new Date().getFullYear();
+
+// var nowAge = now - age;
+
+// document.write(`Your age is ${age} <br > Your birth year is ${nowAge}`);
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 14 ●○●○●○●○●●○●○●○●○●
+
+// 14. Write a program to generate your K-Electric bill in your
+// browser. All the amounts should be rounded off to 2
+// decimal places. Display the following fields:
+// a. Customer Name
+// b. Current Month
+// c. Number of units
+// d. Charges per unit
+// e. Net Amount Payable (within Due Date)
+// f. Late Payment Surcharge
+// g. Gross Amount Payable (after Due Date)
+
+
+// var now = new Date ();
+// var month = now.getMonth();
+// var costomerName = "ABC Customer";
+// var unit = 410;
+// var chargeUnit = 16; 
+// var lateCharge = 350;
+// var netAmount = unit * chargeUnit;
+// var grossAmount = netAmount + lateCharge;
+
+// document.write(`<h1> K-Electric Bill </h1> 
+// Customer Name: ${costomerName} <br >
+// Month: ${month} <br >
+// Number of units: ${unit} <br >
+// Charges per unit: ${chargeUnit}
+// <br >
+// <br >
+// Net Amount Payable (within Due Date): ${netAmount} <br >
+// Late payment charge: ${lateCharge} <br >
+// Gross Amount Payable (after Due Date): ${grossAmount}
+// `)
+
+
+//○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 31 to 34  End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
+
+
+// =========════============================ ⋆★⋆ ════===========================================
+//Chapter :35 to 38 "Function" 
+// =========════============================ ⋆★⋆ ════===========================================
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 01 ●○●○●○●○●●○●○●○●○●
+
+
+// 1. Write a function that displays current date & time in your
+// browser.
+
+// function dateFunction(){
+//     var now = new Date();
+//     document.write(`${now}`)
+// }
+// dateFunction();
+
+// ●○●○●○●○●●○●○●○●○● Question no : 02 ●○●○●○●○●●○●○●○●○●
+
+// 2. Write a function that takes first & last name and then it
+// greets the user using his full name.
+
+// function userName(fname , lname){
+//     document.write(`Have a Good Day ${fname} ${lname}`)
+// }
+// userName("Anun" , "Shabbir");
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 03 ●○●○●○●○●●○●○●○●○●
+ 
+// 3. Write a function that adds two numbers (input by user)
+// and returns the sum of two numbers.
+
+// var num1 = parseInt(prompt("Enter first value"));
+
+// var num2 = parseInt(prompt("Enter second value"));
+
+// function sum (){
+//     return num1 + num2;
+// }
+// var addition = sum();
+
+// document.write(`${num1} + ${num2} = ${addition}`);
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 04 ●○●○●○●○●●○●○●○●○●
+
+// 4. Calculator:
+// Write a function that takes three arguments num1, num2
+// & operator & compute the desired operation. Return and
+// show the desired result in your browser.
+
+
+// var num1 = parseInt(prompt("enter value 1"));
+// var opt = prompt("enter opt");
+// var num2 = parseInt(prompt("enter value 1"));
+
+// function calc(num1 , opt , num2 ){
+//             if(opt === "+"){
+//                 return num1 + num2 
+//             }
+//             else if(opt === "-"){
+//                 return num1  - num2 
+//             }else if(opt === "*"){
+//                 return num1  * num2 
+//             }else if(opt === "/"){
+//                 return num1  / num2 
+//             }
+//             else{
+//                 return "Enter Correct operator"
+//             }
+//     }    
+
+// var calculation = calc(num1 , opt , num2);
+
+// document.write(`first Value: ${num1} <br> Operator ${opt} <br> Second Value: ${num2} <br> Calculation : ${calculation} `)
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 05 ●○●○●○●○●●○●○●○●○●
+
+// 5. Write a function that squares its argument.
+
+///????
+
+// ●○●○●○●○●●○●○●○●○● Question no : 06 ●○●○●○●○●●○●○●○●○●
+
+// 6. Write a function that computes factorial of a number.
+
+///????
+
+// ●○●○●○●○●●○●○●○●○● Question no : 07 ●○●○●○●○●●○●○●○●○●
+
+// 7. Write a function that take start and end number as inputs
+// & display counting in your browser.
+
+// function countingNum(startValue , endValue){
+//     for(var i = startValue ; i <= endValue ; i++){
+
+//          document.write(i  + " <br>") ;
+
+//     }
+
+// }    
+// var startNum = parseInt(prompt("Enter Start Value"));
+// var endNum = parseInt(prompt("Enter End Value"));
+// // countingNum(startNum , endNum);
+
+
+// // ●○●○●○●○●●○●○●○●○● Question no : 08 ●○●○●○●○●●○●○●○●○●
+
+// 8. Write a nested function that computes hypotenuse of a
+// right angle triangle.
+// Hypotenuse2 = Base2 + Perpendicular2
+// Take base and perpendicular as inputs.
+// Outer function : calculateHypotenuse()
+// Inner function: calculateSquare()
+
+
+// ????
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 09 ●○●○●○●○●●○●○●○●○●
+
+// 9. Write a function that calculates the area of a rectangle.
+//  A = width * height
+//  Pass width and height in following manner:
+// i. Arguments as value
+// ii. Arguments as variables
+
+// function rectangle(width , heigth){
+//         var A = width * heigth;
+//         return A
+// }
+// var recWidth = parseInt(prompt("Enter WIDTH"));
+// var recHeight = parseInt(prompt("Enter HEIGHT"));
+// document.write(rectangle(recWidth , recHeight));
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 10 ●○●○●○●○●●○●○●○●○●
+
+// 10. Write a JavaScript function that checks whether a passed
+// string is palindrome or not?
+// A palindrome is word, phrase, or sequence that reads the same backward as
+// forward, e.g., madam.
+
+
+///????
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 11 ●○●○●○●○●●○●○●○●○●
+
+
+// 11. Write a JavaScript function that accepts a string as a
+// parameter and converts the first letter of each word of the
+// string in upper case.
+// EXAMPLE STRING : 'the quick brown fox'
+// EXPECTED OUTPUT : 'The Quick Brown Fox'
+
+
+///????
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 12 ●○●○●○●○●●○●○●○●○●
+
+// 12. Write a JavaScript function that accepts a string as a
+// parameter and find the longest word within the string.
+// EXAMPLE STRING : 'Web Development Tutorial'
+// EXPECTED OUTPUT : 'Development'
+
+
+///????
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 13 ●○●○●○●○●●○●○●○●○●
+
+
+// 13. Write a JavaScript function that accepts two arguments, a
+// string and a letter and the function will count the number of
+// occurrences of the specified letter within the string.
+// Sample arguments : 'JSResourceS.com', 'o'
+
+
+///????
+
+
+// ●○●○●○●○●●○●○●○●○● Question no : 14 ●○●○●○●○●●○●○●○●○●
+
+
+// 14. The Geometrizer
+// Create 2 functions that calculate properties of a circle, using
+// the definitions here.
+// Create a function called calcCircumference:
+// • Pass the radius to the function.
+// • Calculate the circumference based on the radius, and output
+// "The circumference is NN".
+// Create a function called calcArea:
+// • Pass the radius to the function.
+// • Calculate the area based on the radius, and output "The area
+// is NN".
+// Circumference of circle = 2πr
+// Area of circle = πr2
+
+
+///???/
