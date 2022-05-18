@@ -2397,13 +2397,29 @@
 
 // 5. Write a function that squares its argument.
 
-///????
+// function sumOfSquare(num){
+//     var i;
+//     for( i = 0; i <= num ; i++){
+//         var sum =0;
+//         var i = i*i;
+//         sum = i;
+//     }
+//     document.write(`The sum of squares is ${num} is ${sum}`) ;
 
+// }
+
+// var num= parseInt(prompt("Enter any number"));
+// sumOfSquare(num);
 // ●○●○●○●○●●○●○●○●○● Question no : 06 ●○●○●○●○●●○●○●○●○●
 
 // 6. Write a function that computes factorial of a number.
 
-///????
+// function factorialFun(num){
+//     return num
+// }
+// // document.write(`${num}`)
+// // var num = parseInt(prompt("Enter any number"));
+// factorialFun(5);
 
 // ●○●○●○●○●●○●○●○●○● Question no : 07 ●○●○●○●○●●○●○●○●○●
 
@@ -2461,8 +2477,23 @@
 // forward, e.g., madam.
 
 
-///????
-
+function checkPalin(string){
+    var stringValue = string.split('');
+    console.log(stringValue);
+    var reverseValue = stringValue.reverse();
+    console.log(reverseValue);
+    var arrString = reverseValue.join('');
+    console.log(arrString);
+    // if(string == arrString){
+    //     document.write(`It is a palindrome`);
+    // }
+    // else{
+    //     document.write(`It is not a palindrome`);
+    // }
+}
+var string = "madam";
+checkPalin(string);
+    
 
 // ●○●○●○●○●●○●○●○●○● Question no : 11 ●○●○●○●○●●○●○●○●○●
 
