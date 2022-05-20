@@ -2477,22 +2477,22 @@
 // forward, e.g., madam.
 
 
-function checkPalin(string){
-    var stringValue = string.split('');
-    console.log(stringValue);
-    var reverseValue = stringValue.reverse();
-    console.log(reverseValue);
-    var arrString = reverseValue.join('');
-    console.log(arrString);
-    // if(string == arrString){
-    //     document.write(`It is a palindrome`);
-    // }
-    // else{
-    //     document.write(`It is not a palindrome`);
-    // }
-}
-var string = "madam";
-checkPalin(string);
+// function checkPalin(string){
+//     var stringValue = string.split('');
+//     console.log(stringValue);
+//     var reverseValue = stringValue.reverse();
+//     console.log(reverseValue);
+//     var arrString = reverseValue.join('');
+//     console.log(arrString);
+//     if(string == arrString){
+//         document.write(`It is a palindrome`);
+//     }
+//     else{
+//         document.write(`It is not a palindrome`);
+//     }
+// }
+// var string = "madam";
+// checkPalin(string);
     
 
 // ●○●○●○●○●●○●○●○●○● Question no : 11 ●○●○●○●○●●○●○●○●○●
@@ -2505,7 +2505,18 @@ checkPalin(string);
 // EXPECTED OUTPUT : 'The Quick Brown Fox'
 
 
-///????
+// function uppercase(str)
+// {
+//   var arr = str.split(' ');
+//   var newarray = [];
+    
+//   for(var i = 0; i < arr.length; i++){
+//       newarray.push(arr[i].charAt(0).toUpperCase()+arr[i].slice(1));
+//       console.log(newarray);
+//   }
+//   return newarray.join(' ');
+// }
+// console.log(uppercase("the quick brown fox"));
 
 
 // ●○●○●○●○●●○●○●○●○● Question no : 12 ●○●○●○●○●●○●○●○●○●
@@ -2516,7 +2527,19 @@ checkPalin(string);
 // EXPECTED OUTPUT : 'Development'
 
 
-///????
+// function findLongestWord(str){
+
+//     var words = str.split(" ");
+//     var maxLength = 0;
+//     for(var i = 0; i < words.length ; i++){
+//         if(words[i].length > maxLength){
+//             maxLength = words[i].length;
+//         }
+//     }
+//     return maxLength;
+// }
+// console.log(findLongestWord("Web Development Tutorial"));
+ 
 
 
 // ●○●○●○●○●●○●○●○●○● Question no : 13 ●○●○●○●○●●○●○●○●○●
@@ -2528,7 +2551,20 @@ checkPalin(string);
 // Sample arguments : 'JSResourceS.com', 'o'
 
 
-///????
+// function char_count(str, letter) 
+// {
+//  var letter_Count = 0;
+//  for (var i = 0; i < str.length; i++) 
+//  {
+//     if (str.charAt(i) == letter) 
+//       {
+//       letter_Count += 1;
+//       }
+//   }
+//   return letter_Count;
+// }
+
+// console.log(char_count('JSResourceS.com', 'o'));
 
 
 // ●○●○●○●○●●○●○●○●○● Question no : 14 ●○●○●○●○●●○●○●○●○●
@@ -2548,5 +2584,8 @@ checkPalin(string);
 // Circumference of circle = 2πr
 // Area of circle = πr2
 
-
+ 
 ///???/
+
+
+//○●○●○●○●●○●○●○●○● ▃▃▃▃▃▃▃▃▃▃Chapter 35 to 38  End ▃▃▃▃▃▃▃▃▃▃▃ ○●○●○●○●●○●○●○●○●//
